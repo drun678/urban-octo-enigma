@@ -1,0 +1,934 @@
+<div class="priceNote" style="margin:12px 0;padding:10px 12px;border:1px solid #2b2b35;border-radius:10px;color:#aaa;font-size:12px">Цены обновлены по публичным данным StarPets. Для пересчёта USD→RUB использован курс ЦБ РФ 84,4635 ₽ за $1 на 26.08.2026.</div><!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SHOP2VPN — MM2</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#07070a;color:#f5f5f7;font:15px Arial,sans-serif}a{color:inherit;text-decoration:none}button{font:inherit;cursor:pointer}
+.wrap{max-width:1400px;margin:auto;padding:0 22px}header{height:78px;display:flex;align-items:center;gap:25px;border-bottom:1px solid #22222a}
+.logo{font-size:28px;font-weight:900}.logo i{color:#a65cff;font-style:normal}.logo small{display:block;font-size:9px;color:#777;letter-spacing:2px}
+.search{flex:1}.search input{width:100%;padding:13px 16px;border-radius:10px;border:1px solid #292932;background:#121218;color:#fff}
+.cart{border:1px solid #30263b;background:#15101d;color:#d5a3ff;border-radius:9px;padding:11px 15px}
+nav{display:flex;gap:25px;align-items:center;height:58px;border-bottom:1px solid #1c1c22;overflow:auto;white-space:nowrap}nav a:hover{color:#b979ff}
+.catalog{background:#17171d;border:1px solid #2b2b34;color:#fff;border-radius:9px;padding:11px 16px}
+.hero{min-height:350px;margin-top:20px;border:1px solid #29202f;border-radius:15px;overflow:hidden;position:relative;background:radial-gradient(circle at 80% 50%,#461477,#0b0b0f 55%)}
+.heroText{padding:55px 45px;position:relative;z-index:2}h1{font-size:48px;line-height:1;margin:0 0 18px}h1 em{font-style:normal;color:#b777ff}.hero p{max-width:510px;color:#aaa;line-height:1.6}.cta{background:#9147ff;color:white;border:0;border-radius:9px;padding:14px 22px;font-weight:bold}
+.hero img{position:absolute;right:2%;top:15px;width:500px;max-width:48%;filter:drop-shadow(0 20px 30px #000)}
+section{padding:28px 0}.title{font-size:21px;font-weight:900;margin-bottom:15px}.cats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.cat{background:#111116;border:1px solid #26262e;border-radius:10px;padding:18px}
+.products{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}.card{background:#111116;border:1px solid #25252e;border-radius:11px;overflow:hidden}.pic{height:190px;background:#17121f;position:relative;display:grid;place-items:center}.pic img{width:auto;height:auto;max-width:82%;max-height:82%;object-fit:contain;display:block;margin:auto}.pic span{position:absolute;left:10px;top:10px;background:#9147ff;color:white;border-radius:15px;padding:5px 8px;font-size:10px;font-weight:bold;z-index:2}.info{padding:14px}.info b{display:block;min-height:34px}.info small{display:block;color:#888;margin-top:4px}.row{display:flex;justify-content:space-between;align-items:center;margin-top:14px}.row strong{font-size:18px}.row button{background:#1b1027;border:1px solid #9147ff;color:#d09cff;border-radius:7px;padding:8px 12px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.stat{background:#111116;border:1px solid #25252e;border-radius:10px;padding:20px}.stat b{font-size:22px;color:#bd82ff}.stat small{display:block;color:#888;margin-top:6px}
+.modal{display:none;position:fixed;inset:0;background:#000c;z-index:10;align-items:center;justify-content:center;padding:20px}.modal.show{display:flex}.box{width:min(650px,100%);background:#111116;border:1px solid #36303f;border-radius:14px}.mh{display:flex;justify-content:space-between;padding:18px;border-bottom:1px solid #292932}.mh button{background:#22222a;border:0;color:#fff;border-radius:7px;padding:6px 10px}#items{padding:20px}.item{padding:12px 0;border-bottom:1px solid #27272f;display:flex;justify-content:space-between}.mf{padding:18px;display:flex;justify-content:space-between;border-top:1px solid #292932}footer{padding:30px 0;color:#777;border-top:1px solid #202028}
+@media(max-width:850px){.products{grid-template-columns:repeat(2,1fr)}.cats,.stats{grid-template-columns:repeat(2,1fr)}.hero img{opacity:.35;max-width:65%}h1{font-size:37px}}
+@media(max-width:550px){.wrap{padding:0 12px}header{height:auto;padding:14px 0;flex-wrap:wrap}.search{order:3;flex-basis:100%}.products{grid-template-columns:1fr 1fr}.pic{height:145px}.heroText{padding:35px 22px}}
+
+.supportGrid{display:grid;grid-template-columns:1.2fr .8fr;gap:14px}
+.supportCard{background:#111116;border:1px solid #292933;border-radius:12px;padding:22px}
+.supportCard h3{margin:0 0 8px;font-size:20px}.supportCard p{color:#999;line-height:1.5;margin:7px 0 16px}
+.supportBtns{display:flex;gap:10px;flex-wrap:wrap}.supportBtn{background:#17101f;border:1px solid #7540ad;color:#d09cff;border-radius:8px;padding:11px 15px;text-decoration:none;display:inline-block}.supportBtn.primary{background:#9147ff;color:#fff;border-color:#9147ff}
+.supportForm{display:grid;gap:10px}.supportForm input,.supportForm textarea{width:100%;background:#0b0b0f;border:1px solid #292932;border-radius:8px;padding:11px;color:#fff;outline:none}.supportForm textarea{min-height:100px;resize:vertical}.supportForm button{background:#9147ff;border:0;color:#fff;border-radius:8px;padding:12px;font-weight:bold}
+@media(max-width:700px){.supportGrid{grid-template-columns:1fr}}
+
+.promoPanel{max-width:760px;margin:auto;background:#111116;border:1px solid #292933;border-radius:14px;padding:24px}
+.promoForm{display:flex;gap:10px}.promoForm input{flex:1;background:#0b0b0f;border:1px solid #292932;border-radius:8px;padding:13px;color:#fff;text-transform:uppercase;outline:none}.promoForm button{background:#9147ff;border:0;color:#fff;border-radius:8px;padding:13px 20px;font-weight:bold}
+.promoResult{margin-top:15px;min-height:22px;color:#aaa}.promoResult.ok{color:#54e68a}.promoResult.bad{color:#ff6b7a}.promoExamples{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}.promoCode{background:#19131f;border:1px dashed #7740a8;color:#d09cff;padding:8px 12px;border-radius:7px;cursor:pointer}
+@media(max-width:600px){.promoForm{flex-direction:column}}
+
+.catalogTools{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.catFilter{background:#121218;border:1px solid #292932;color:#aaa;border-radius:8px;padding:9px 13px}
+.catFilter.active,.catFilter:hover{background:#1d102a;border-color:#9147ff;color:#d09cff}
+.resultsInfo{color:#777;font-size:13px;margin-left:auto;align-self:center}
+
+.priceNote{color:#777;font-size:12px;margin-top:8px}
+
+.buyModal{display:none;position:fixed;inset:0;background:#000d;z-index:30;align-items:center;justify-content:center;padding:18px}
+.buyModal.show{display:flex}.buyBox{width:min(620px,100%);background:#111116;border:1px solid #3b2b4b;border-radius:16px;box-shadow:0 25px 80px #000;overflow:hidden}
+.buyHead{padding:20px;border-bottom:1px solid #292932;display:flex;justify-content:space-between;align-items:center}.buyHead button{background:#22222a;color:#fff;border:0;border-radius:7px;padding:7px 10px}
+.buyBody{padding:20px}.buyProduct{display:flex;gap:15px;background:#0b0b0f;border:1px solid #292932;border-radius:10px;padding:14px;margin-bottom:16px}.buyProduct .icon{width:90px;height:70px;background:#19131f;border-radius:8px;display:grid;place-items:center;color:#bd82ff;font-size:28px}.buyProduct b{font-size:18px}.buyProduct small{display:block;color:#888;margin-top:5px}
+.buyForm{display:grid;gap:11px}.buyForm label{font-size:12px;color:#888}.buyForm input,.buyForm select{width:100%;background:#0b0b0f;border:1px solid #292932;color:#fff;border-radius:8px;padding:12px;outline:none}
+.payOptions{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.payOption{border:1px solid #292932;background:#15151b;color:#bbb;border-radius:8px;padding:11px;text-align:center;cursor:pointer}.payOption.selected{border-color:#9147ff;color:#d09cff;background:#1d102a}
+.testNotice{background:#1b1423;border:1px solid #563276;color:#cba7e8;border-radius:9px;padding:12px;font-size:12px;line-height:1.45}
+.buyTotal{display:flex;justify-content:space-between;font-size:19px;margin-top:14px;padding-top:14px;border-top:1px solid #292932}.buyButton{width:100%;background:#9147ff;color:#fff;border:0;border-radius:9px;padding:14px;font-weight:800;margin-top:14px}
+.successBox{text-align:center;padding:30px}.successIcon{font-size:50px}.orderCode{display:inline-block;background:#19131f;border:1px dashed #9147ff;color:#d09cff;padding:8px 13px;border-radius:7px;margin:12px 0;font-weight:bold}
+@media(max-width:600px){.payOptions{grid-template-columns:1fr}}
+
+.devBar{position:fixed;right:14px;bottom:14px;z-index:40;background:#17101f;border:1px solid #7540ad;border-radius:10px;padding:8px;box-shadow:0 10px 30px #000}.devBar button{background:#9147ff;color:#fff;border:0;border-radius:7px;padding:10px 13px;font-weight:700;cursor:pointer}
+.detailModal,.checkoutModal{display:none;position:fixed;inset:0;z-index:35;background:#000c;align-items:center;justify-content:center;padding:16px}.detailModal.show,.checkoutModal.show{display:flex}
+.modalBox{width:min(700px,100%);max-height:90vh;overflow:auto;background:#111116;border:1px solid #3b2b4b;border-radius:16px;box-shadow:0 25px 80px #000}
+.modalHead{padding:16px 20px;border-bottom:1px solid #292932;display:flex;justify-content:space-between;align-items:center}.modalHead button{background:#24242c;color:#fff;border:0;border-radius:7px;padding:7px 10px;cursor:pointer}
+.devGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;padding:18px}.devItem{background:#0b0b0f;border:1px solid #292932;border-radius:10px;padding:12px}.devItem b{display:block;margin-bottom:5px}.devItem small{color:#888}.devActions{padding:0 18px 18px;display:flex;gap:9px;flex-wrap:wrap}.devOrdersBox{margin:0 18px 18px;background:#0b0b0f;border:1px solid #292932;border-radius:10px;padding:14px}.devOrdersHead{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:10px}.devOrdersHead small{color:#888}.devOrdersHead button{background:#24242c;color:#fff;border:0;border-radius:7px;padding:7px 10px;cursor:pointer}.devOrder{display:flex;justify-content:space-between;gap:15px;padding:10px 0;border-top:1px solid #292932}.devOrder b{display:block}.devOrder small{display:block;color:#aaa;margin-top:4px}.devOrderMeta{display:flex;flex-direction:column;align-items:flex-end;gap:4px;color:#888;font-size:11px;text-align:right}.devEmpty{color:#888;padding:8px 0}.devActions button,.checkoutBtn{background:#9147ff;color:#fff;border:0;border-radius:8px;padding:11px 15px;font-weight:700;cursor:pointer}
+.productPreview{display:grid;grid-template-columns:220px 1fr;gap:18px;padding:20px}.previewImg{height:190px;background:#19131f;border-radius:12px;display:grid;place-items:center;overflow:hidden}.previewImg img{max-width:90%;max-height:90%;object-fit:contain}.previewInfo h2{margin:0 0 7px}.previewInfo p{color:#999}.previewPrice{font-size:24px;font-weight:800;margin:18px 0}.checkoutBody{padding:20px}.checkoutBody input,.checkoutBody select{width:100%;box-sizing:border-box;background:#0b0b0f;border:1px solid #292932;color:#fff;border-radius:8px;padding:12px;margin:6px 0 12px}.checkoutSummary{background:#0b0b0f;border:1px solid #292932;border-radius:10px;padding:14px;margin-bottom:15px}.checkoutTotal{display:flex;justify-content:space-between;font-size:20px;border-top:1px solid #292932;padding-top:12px;margin-top:12px}
+@media(max-width:650px){.devGrid{grid-template-columns:1fr 1fr}.productPreview{grid-template-columns:1fr}}
+
+.receiptModal{position:fixed;inset:0;background:rgba(0,0,0,.78);display:none;align-items:center;justify-content:center;z-index:9999;padding:18px}
+.receiptModal.show{display:flex}
+.receiptBox{width:min(680px,100%);max-height:90vh;overflow:auto;background:#f7f7f7;color:#111;border-radius:14px;box-shadow:0 20px 70px rgba(0,0,0,.45)}
+.receiptHead{padding:14px 18px;border-bottom:1px solid #ddd;display:flex;justify-content:space-between;align-items:center;font-weight:800}
+.receiptHead button{border:0;background:transparent;font-size:20px;cursor:pointer}
+.receiptText{margin:0;padding:22px;font:13px/1.45 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;white-space:pre-wrap}
+.receiptActions{display:flex;gap:10px;padding:0 18px 18px}
+.receiptActions button{flex:1;border:0;border-radius:9px;padding:11px;cursor:pointer;font-weight:700}
+
+/* ===== RESPONSIVE LAYOUT: PC / TABLET / PHONE ===== */
+html{scroll-behavior:smooth}
+body{overflow-x:hidden;-webkit-text-size-adjust:100%;text-rendering:optimizeLegibility}
+img{max-width:100%}
+button,a,input,textarea,select{touch-action:manipulation}
+
+@media (min-width:1200px){
+  .wrap{padding-left:28px;padding-right:28px}
+  .hero{min-height:390px}
+  .heroText{padding:68px 56px}
+  .hero img{width:min(560px,48%);right:3%}
+  .products{grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+  .cats,.stats{gap:16px}
+}
+
+@media (max-width:1000px){
+  .wrap{padding-left:18px;padding-right:18px}
+  header{gap:14px}
+  nav{gap:18px}
+  .heroText{padding:46px 32px}
+  h1{font-size:42px}
+  .hero img{width:430px;max-width:45%}
+  .products{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .cats,.stats{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+
+@media (max-width:700px){
+  .wrap{padding-left:14px;padding-right:14px}
+  header{
+    height:auto;
+    min-height:0;
+    padding:12px 0;
+    display:grid;
+    grid-template-columns:1fr auto;
+    gap:10px;
+    align-items:center;
+  }
+  .logo{font-size:23px;line-height:1}
+  .logo small{font-size:7px;letter-spacing:1.5px;margin-top:3px}
+  .cart{
+    padding:10px 11px;
+    white-space:nowrap;
+    font-size:13px;
+  }
+  .search{
+    grid-column:1/-1;
+    order:unset;
+  }
+  .search input{
+    min-height:44px;
+    font-size:15px;
+  }
+  nav{
+    height:auto;
+    min-height:48px;
+    margin:0 -14px;
+    padding:8px 14px;
+    gap:9px;
+    overflow-x:auto;
+    overflow-y:hidden;
+    -webkit-overflow-scrolling:touch;
+    scrollbar-width:none;
+  }
+  nav::-webkit-scrollbar{display:none}
+  nav a,.catalog{
+    flex:0 0 auto;
+    min-height:38px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:9px 12px;
+    font-size:13px;
+  }
+  .hero{
+    min-height:330px;
+    margin-top:14px;
+    border-radius:13px;
+  }
+  .heroText{
+    padding:34px 22px;
+    max-width:100%;
+  }
+  h1{
+    font-size:34px;
+    line-height:1.05;
+    margin-bottom:14px;
+  }
+  .hero p{
+    max-width:390px;
+    font-size:14px;
+    line-height:1.5;
+  }
+  .cta{
+    min-height:46px;
+    padding:12px 16px;
+  }
+  .hero img{
+    width:330px;
+    max-width:78%;
+    right:-5%;
+    top:42px;
+    opacity:.22;
+  }
+  section{padding:22px 0}
+  .title{font-size:19px;margin-bottom:12px}
+  .cats,.stats{grid-template-columns:1fr 1fr;gap:9px}
+  .cat{padding:15px 12px;min-height:70px}
+  .products{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+  .card{min-width:0}
+  .pic{height:145px}
+  .info{padding:11px}
+  .info b{
+    min-height:36px;
+    font-size:14px;
+    line-height:1.25;
+    overflow-wrap:anywhere;
+  }
+  .info small{font-size:11px}
+  .row{gap:7px;margin-top:10px;align-items:flex-end}
+  .row strong{font-size:15px;white-space:nowrap}
+  .row button{padding:8px 9px;font-size:12px;white-space:nowrap}
+  .catalogTools{
+    flex-wrap:nowrap;
+    overflow-x:auto;
+    margin:0 -2px 14px;
+    padding:2px;
+    scrollbar-width:none;
+    -webkit-overflow-scrolling:touch;
+  }
+  .catalogTools::-webkit-scrollbar{display:none}
+  .catFilter{flex:0 0 auto;min-height:38px}
+  .resultsInfo{display:none}
+  .supportGrid{grid-template-columns:1fr}
+  .supportCard{padding:18px}
+  .supportBtns>*{flex:1;text-align:center}
+  .promoPanel{padding:18px}
+  .promoForm{flex-direction:column}
+  .promoForm input,.promoForm button{min-height:44px}
+  .devBar{right:10px;bottom:10px}
+  .devBar button{padding:10px 12px}
+  footer{font-size:12px;line-height:1.5;padding:24px 0}
+
+  .modal,.buyModal,.detailModal,.checkoutModal,.receiptModal{
+    padding:10px;
+    align-items:flex-end;
+  }
+  .box,.buyBox,.modalBox,.receiptBox{
+    width:100%;
+    max-width:100%;
+    max-height:92vh;
+    border-radius:15px 15px 10px 10px;
+  }
+  .mh,.buyHead,.modalHead{padding:14px 16px}
+  #items,.buyBody,.checkoutBody{padding:16px}
+  .mf{padding:14px 16px}
+  .productPreview{
+    grid-template-columns:1fr;
+    gap:12px;
+    padding:16px;
+  }
+  .previewImg{height:180px}
+  .previewPrice{font-size:22px;margin:14px 0}
+  .devGrid{grid-template-columns:1fr 1fr;padding:14px}
+  .devActions{padding:0 14px 14px}
+  .devOrdersBox{margin:0 14px 14px}
+  .receiptText{padding:16px;font-size:12px}
+  .receiptActions{padding:0 14px 14px;flex-direction:column}
+  .receiptActions button{min-height:44px}
+}
+
+@media (max-width:420px){
+  .wrap{padding-left:10px;padding-right:10px}
+  nav{margin-left:-10px;margin-right:-10px;padding-left:10px;padding-right:10px}
+  .logo{font-size:21px}
+  .cart{font-size:12px;padding:9px 10px}
+  .hero{min-height:315px}
+  .heroText{padding:30px 17px}
+  h1{font-size:29px}
+  .hero p{font-size:13px;max-width:250px}
+  .hero img{max-width:82%;right:-10%;top:58px}
+  .cats,.stats{gap:7px}
+  .cat{padding:13px 10px;font-size:13px}
+  .products{gap:7px}
+  .pic{height:130px}
+  .info{padding:9px}
+  .info b{font-size:13px;min-height:34px}
+  .row strong{font-size:14px}
+  .row button{font-size:11px;padding:7px 8px}
+  .supportBtns{flex-direction:column}
+  .payOptions{grid-template-columns:1fr}
+}
+
+@media (max-width:340px){
+  .products{grid-template-columns:1fr}
+  .pic{height:180px}
+  .cats,.stats{grid-template-columns:1fr}
+  .heroText{padding-right:14px}
+  h1{font-size:27px}
+}
+
+/* Better keyboard/focus usability */
+:focus-visible{outline:2px solid #b777ff;outline-offset:2px}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*:before,*:after{transition:none!important;animation:none!important}
+}
+
+
+
+/* Device chooser */
+.deviceChooser{position:fixed;inset:0;z-index:10000;background:rgba(5,5,9,.98);display:flex;align-items:center;justify-content:center;padding:20px}
+.deviceChooser.hidden{display:none}
+.deviceChooserBox{width:min(760px,100%);text-align:center;background:#111116;border:1px solid #33253f;border-radius:20px;padding:38px 28px;box-shadow:0 30px 100px #000}
+.deviceChooserBox h2{font-size:32px;margin:0 0 10px}
+.deviceChooserBox p{color:#999;margin:0 0 28px}
+.deviceOptions{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.deviceOption{border:1px solid #302b38;background:#17171d;color:#fff;border-radius:14px;padding:25px 18px;cursor:pointer;transition:.2s}
+.deviceOption:hover{border-color:#9147ff;transform:translateY(-2px);background:#1d102a}
+.deviceIcon{font-size:48px;display:block;margin-bottom:12px}
+.deviceOption b{display:block;font-size:20px;margin-bottom:6px}
+.deviceOption small{color:#888}
+@media(max-width:550px){
+  .deviceChooserBox{padding:28px 16px}
+  .deviceChooserBox h2{font-size:25px}
+  .deviceOptions{grid-template-columns:1fr}
+  .deviceOption{padding:20px 14px}
+}
+</style></head>
+<body><div class="deviceChooser" id="deviceChooser">
+  <div class="deviceChooserBox">
+    <h2>Как открыть SHOP2VPN?</h2>
+    <p>Выберите устройство, чтобы настроить интерфейс под ваш экран.</p>
+    <div class="deviceOptions">
+      <button class="deviceOption" onclick="chooseDevice('pc')">
+        <span class="deviceIcon">🖥️</span>
+        <b>ПК</b>
+        <small>Версия для компьютера</small>
+      </button>
+      <button class="deviceOption" onclick="chooseDevice('phone')">
+        <span class="deviceIcon">📱</span>
+        <b>Телефон</b>
+        <small>Мобильная версия</small>
+      </button>
+    </div>
+  </div>
+</div>
+<div class="wrap">
+<header><div class="logo">SHOP<i>2</i>VPN<small>MM2 MARKETPLACE</small></div>
+<div class="search"><input id="q" placeholder="Поиск ножей, пушек, Chroma..."></div>
+<button class="cart" onclick="openCart()">🛒 Корзина (<b id="count">0</b>)</button></header>
+<nav><button class="catalog" onclick="scrollToProducts()">☰ Каталог MM2</button>
+<a href="#home">Главная</a><a href="#products" onclick="filter('Knife')">🔪 Ножи</a><a href="#products" onclick="filter('Gun')">🔫 Оружие</a><a href="#products" onclick="filter('Chroma')">🌈 Chroma</a><a href="#promo">🎟 Промокод</a><a href="#guarantee">🛡 Гарантии</a><a href="#support">🎧 Поддержка</a></nav>
+<section class="hero" id="home"><div class="heroText"><h1>MM2 GODLY<br><em>ПО ЛУЧШИМ ЦЕНАМ</em></h1><p>Магазин предметов Murder Mystery 2: Godly, Chroma, ножи и оружие.</p><button class="cta" onclick="scrollToProducts()">СМОТРЕТЬ ПРЕДМЕТЫ →</button></div><img src="https://checkout.bloxguy.com/cdn/shop/files/chroma-tides-mm2-godly-knife-roblox.webp?v=1771991572&width=3840" alt=""></section>
+<section><div class="title">КАТЕГОРИИ MM2</div><div class="cats"><a class="cat" href="#products" onclick="filter('Knife')">🔪 <b>Godly Knives</b></a><a class="cat" href="#products" onclick="filter('Gun')">🔫 <b>Godly Guns</b></a><a class="cat" href="#products" onclick="filter('Chroma')">🌈 <b>Chroma</b></a><a class="cat" href="#products">💎 <b>Наборы</b></a></div></section>
+
+<section id="products">
+<div class="title">КАТАЛОГ MM2</div>
+<div style="margin:10px 0;padding:10px 12px;border-radius:10px;background:#17171d;color:#aaa;font-size:12px">
+Каталог загружен из списка DreamPets: названия, цены и изображения. Доступен поиск и фильтр Pets.
+</div><div class="catalogTools">
+  <button class="catFilter active" onclick="setCatalog('all',this)">Все</button>
+  <button class="catFilter" onclick="setCatalog('Knife',this)">🔪 Ножи</button>
+  <button class="catFilter" onclick="setCatalog('Gun',this)">🔫 Пушки</button>
+  <button class="catFilter" onclick="setCatalog('Chroma',this)">🌈 Chroma</button>
+  <button class="catFilter" onclick="setCatalog('Ancient',this)">💎 Ancient</button>
+  <button class="catFilter" onclick="setCatalog('Vintage',this)">🕰 Vintage</button>
+  <button class="catFilter" onclick="setCatalog('Event',this)">🎃 Event</button>
+  <button class="catFilter" onclick="setCatalog('Pet',this)">🐾 Pets</button>
+  <span class="resultsInfo" id="resultsInfo"></span>
+</div>
+<div class="products" id="grid"></div>
+</section>
+
+<section id="promo">
+<div class="title">ПРОМОКОД</div>
+<div class="promoPanel">
+  <h3 style="margin-top:0">🎟 Есть промокод?</h3>
+  <p style="color:#999">Введите код и получите скидку на тестовый заказ.</p>
+  <form class="promoForm" onsubmit="applyPromo(event)">
+    <input id="promoInput" placeholder="Введите промокод" autocomplete="off">
+    <button type="submit">Активировать</button>
+  </form>
+  <div id="promoResult" class="promoResult"></div>
+  <div class="promoExamples">
+    <button class="promoCode" type="button" onclick="usePromo('MM2START')">MM2START</button>
+    <button class="promoCode" type="button" onclick="usePromo('SHOP2VPN10')">SHOP2VPN10</button>
+    <button class="promoCode" type="button" onclick="usePromo('GODLY15')">GODLY15</button>
+  </div>
+</div>
+</section>
+<section id="guarantee"><div class="stats"><div class="stat"><b>🛡 100%</b><small>Гарантия сделки</small></div><div class="stat"><b>⚡ Быстро</b><small>Обработка заказа</small></div><div class="stat"><b>MM2</b><small>Murder Mystery 2</small></div><div class="stat"><b>24/7</b><small>Поддержка онлайн</small></div></div></section>
+
+<section id="support">
+<div class="title">ТЕХПОДДЕРЖКА</div>
+<div class="supportGrid">
+  <div class="supportCard">
+    <h3>🎧 Нужна помощь?</h3>
+    <p>Если возникли вопросы по заказу, оплате или предмету — напишите нам. Поддержка поможет разобраться.</p>
+    <div class="supportBtns">
+      <a class="supportBtn primary" href="https://t.me/" target="_blank" rel="noopener">💬 Telegram</a>
+      <a class="supportBtn" href="mailto:support@shop2vpn.example">✉️ Написать на почту</a>
+    </div>
+  </div>
+  <div class="supportCard">
+    <h3>✍️ Быстрое обращение</h3>
+    <form class="supportForm" onsubmit="sendSupport(event)">
+      <input id="supportName" placeholder="Ваш никнейм" required>
+      <input id="supportContact" placeholder="Telegram / Discord" required>
+      <textarea id="supportText" placeholder="Опишите проблему..." required></textarea>
+      <button type="submit">Отправить обращение</button>
+    </form>
+  </div>
+</div>
+</section>
+<footer>© 2026 SHOP2VPN · MM2 Marketplace<br>Демонстрационный фанатский макет. Не является официальным сайтом Roblox или Murder Mystery 2.</footer>
+</div>
+<div class="modal" id="modal"><div class="box"><div class="mh"><b>🛒 Корзина</b><button onclick="closeCart()">✕</button></div><div id="items">Корзина пуста</div><div class="mf"><b>Итого: <span id="total">0 ₽</span></b><button class="cta" onclick="checkoutCart()">Оформить</button></div></div></div>
+<script>
+
+function chooseDevice(device){
+  document.body.classList.remove('device-pc','device-phone');
+  document.body.classList.add('device-'+device);
+  document.getElementById('deviceChooser').classList.add('hidden');
+  try{localStorage.setItem('shop2vpn_device',device)}catch(e){}
+}
+(function(){
+  try{
+    const saved=localStorage.getItem('shop2vpn_device');
+    if(saved==='pc'||saved==='phone') chooseDevice(saved);
+  }catch(e){}
+})();
+
+const catalogItems=[{"name":"Icewing","rarity":"Pet","cat":"Pet","price":72.56,"img":"https://mm2.dreampets.gg/api/products/v1/products/21f6d769-4358-42ba-9a4e-8d2b8c024cd1/image"},{"name":"Bubbles","rarity":"Pet","cat":"Pet","price":9.89,"img":"https://mm2.dreampets.gg/api/products/v1/products/cece7e59-6fc1-4a57-922a-fb6309d0a308/image"},{"name":"Palms","rarity":"Pet","cat":"Pet","price":5.89,"img":"https://mm2.dreampets.gg/api/products/v1/products/63bcbab8-b56d-4867-912f-5b7875d37a8a/image"},{"name":"Icecream","rarity":"Pet","cat":"Pet","price":484.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/b89bc6fd-c241-44c0-a7bb-6d9baba478ff/image"},{"name":"Predator","rarity":"Pet","cat":"Pet","price":6.98,"img":"https://mm2.dreampets.gg/api/products/v1/products/e7372cf2-0155-4a5e-88aa-edccbb782760/image"},{"name":"Tourist","rarity":"Pet","cat":"Pet","price":4.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/6765512a-2c4b-4435-88fc-500e21b8eb19/image"},{"name":"Ornament","rarity":"Pet","cat":"Pet","price":598.99,"img":"https://mm2.dreampets.gg/api/products/v1/products/a8613e93-7c67-4cc6-b73e-7ff6f143acf9/image"},{"name":"Batwing","rarity":"Pet","cat":"Pet","price":207.77,"img":"https://mm2.dreampets.gg/api/products/v1/products/30214987-6baa-4dbb-bc8a-1390291f2b24/image"},{"name":"Candy","rarity":"Pet","cat":"Pet","price":439.99,"img":"https://mm2.dreampets.gg/api/products/v1/products/35e0ab9c-0ef1-46b5-b465-ac1d551a9076/image"},{"name":"Fire Fox","rarity":"Pet","cat":"Pet","price":17.5,"img":"https://mm2.dreampets.gg/api/products/v1/products/f5ebc9a2-2b70-4671-892a-210d932b2ecf/image"},{"name":"Bat","rarity":"Pet","cat":"Pet","price":700.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/50cbcff2-5010-4821-9f5c-5ff60118c066/image"},{"name":"Icebreaker","rarity":"Pet","cat":"Pet","price":188.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/91ae9851-a8fe-48b1-934a-3ee45bd273db/image"},{"name":"Elite","rarity":"Pet","cat":"Pet","price":25.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/ff41bacd-e5e7-47e0-9d1f-0a7776ac6f63/image"},{"name":"Orange Seer","rarity":"Pet","cat":"Pet","price":41.9,"img":"https://mm2.dreampets.gg/api/products/v1/products/63a23663-010c-45d4-ad05-3ba9cd343e00/image"},{"name":"Heartblade","rarity":"Pet","cat":"Pet","price":370.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/f5a482c6-1e03-4424-9ff8-93b2beeb8bd5/image"},{"name":"Beachy","rarity":"Pet","cat":"Pet","price":399.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/f8bd37eb-47a3-486a-9cf6-e49c7c7d1b8a/image"},{"name":"Fire Pig","rarity":"Pet","cat":"Pet","price":2.9,"img":"https://mm2.dreampets.gg/api/products/v1/products/3dbe1e54-ad71-4f39-b7b2-8572cdf1ce3b/image"},{"name":"Elderwood Scythe","rarity":"Pet","cat":"Pet","price":118.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/209b1839-4db8-4262-b657-921a19c9b5dd/image"},{"name":"Old Glory","rarity":"Pet","cat":"Pet","price":55.91,"img":"https://mm2.dreampets.gg/api/products/v1/products/cba03823-d502-4766-8493-b14fce39fb97/image"},{"name":"Splash","rarity":"Pet","cat":"Pet","price":3.33,"img":"https://mm2.dreampets.gg/api/products/v1/products/5eb06832-98aa-4824-b695-9d08c8d8a511/image"},{"name":"Plasmite","rarity":"Pet","cat":"Pet","price":4.32,"img":"https://mm2.dreampets.gg/api/products/v1/products/c2b51529-9bc9-4d50-b6cb-d843293edcb8/image"},{"name":"Sweet","rarity":"Pet","cat":"Pet","price":903.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/64245ff8-44b0-4b67-91bc-281a0126b4d4/image"},{"name":"Black","rarity":"Pet","cat":"Pet","price":18.9,"img":"https://mm2.dreampets.gg/api/products/v1/products/a5cf87a4-902b-455a-a4c5-eb9a01888075/image"},{"name":"Cupid","rarity":"Pet","cat":"Pet","price":40.65,"img":"https://mm2.dreampets.gg/api/products/v1/products/c2262447-eea6-45be-93fa-08c25ab951ac/image"},{"name":"Bioblade","rarity":"Pet","cat":"Pet","price":149.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/18bc1a9b-891b-44eb-8610-3fc41b2fcd4c/image"},{"name":"Whiteout","rarity":"Pet","cat":"Pet","price":25.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/8872ec04-c22d-4105-b1aa-d5631e2029e0/image"},{"name":"Iceflake","rarity":"Pet","cat":"Pet","price":77.9,"img":"https://mm2.dreampets.gg/api/products/v1/products/7944c1b5-8ae0-4b24-b10b-8740b916e0a0/image"},{"name":"Yellow Seer","rarity":"Pet","cat":"Pet","price":84.99,"img":"https://mm2.dreampets.gg/api/products/v1/products/4e19efb7-95bc-4ee4-b4d8-1cd20b2c9102/image"},{"name":"Boneblade","rarity":"Pet","cat":"Pet","price":18.94,"img":"https://mm2.dreampets.gg/api/products/v1/products/d8ef56ce-63a2-4da6-b2a6-e239b41a23d6/image"},{"name":"Swirly Axe","rarity":"Pet","cat":"Pet","price":107.99,"img":"https://mm2.dreampets.gg/api/products/v1/products/d2972131-5af0-47b6-acb8-5980d1c10e8a/image"},{"name":"Seer","rarity":"Pet","cat":"Pet","price":100.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/8717117c-9c78-4122-868c-bd975e66bf06/image"},{"name":"Plasmablade","rarity":"Pet","cat":"Pet","price":167.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/e926c3ec-8c5d-4a39-8a5c-b7dff748f7ba/image"},{"name":"Hallowscythe","rarity":"Pet","cat":"Pet","price":134.33,"img":"https://mm2.dreampets.gg/api/products/v1/products/53850e21-f9e7-41b1-a119-d1570150de5f/image"},{"name":"Midnight","rarity":"Pet","cat":"Pet","price":28.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/8c03d506-bd49-4924-8945-4db443ede6f3/image"},{"name":"BattleAxe","rarity":"Pet","cat":"Pet","price":141.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/9f6a1bb2-cff4-410e-a0d3-101e60d0dfcb/image"},{"name":"Slasher","rarity":"Pet","cat":"Pet","price":69.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/153e0cf5-b3f2-45a0-be08-e215888d3e37/image"},{"name":"Santa's Spirit","rarity":"Pet","cat":"Pet","price":18.99,"img":"https://mm2.dreampets.gg/api/products/v1/products/6a3df7f4-5e40-45e7-a70f-e0e8df28636f/image"},{"name":"Swirly Blade","rarity":"Pet","cat":"Pet","price":37.77,"img":"https://mm2.dreampets.gg/api/products/v1/products/28e61cf4-b1f4-4865-9412-7a77dcca12be/image"},{"name":"Frostbite","rarity":"Pet","cat":"Pet","price":49.55,"img":"https://mm2.dreampets.gg/api/products/v1/products/7a909403-b5a0-473e-82c9-d1cb47319f12/image"},{"name":"Red Seer","rarity":"Pet","cat":"Pet","price":35.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/283aa5bd-27ee-4996-b5f9-b36406fc260e/image"},{"name":"Jigsaw","rarity":"Pet","cat":"Pet","price":44.98,"img":"https://mm2.dreampets.gg/api/products/v1/products/d5d5e0fa-4a77-489e-8def-e71d94f6d8b9/image"},{"name":"Nightblade","rarity":"Pet","cat":"Pet","price":83.94,"img":"https://mm2.dreampets.gg/api/products/v1/products/f366d3eb-e08e-4ee4-a596-d2fb6f002ea9/image"},{"name":"Eggblade","rarity":"Pet","cat":"Pet","price":69.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/a37402a2-d1a5-4368-baa6-ac5c456811f0/image"},{"name":"Logchopper","rarity":"Pet","cat":"Pet","price":120.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/184a2e18-6f04-430d-9752-58e512f83f43/image"},{"name":"Phantom","rarity":"Pet","cat":"Pet","price":349.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/3a48f1ab-aba1-476a-8ff4-e90806a130eb/image"},{"name":"Flames","rarity":"Pet","cat":"Pet","price":43.88,"img":"https://mm2.dreampets.gg/api/products/v1/products/7b2cd29f-4ee5-4057-831e-cec8243da87e/image"},{"name":"Heat","rarity":"Pet","cat":"Pet","price":120.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/61d37fef-3f2e-439d-8868-46295e7e694e/image"},{"name":"Xmas","rarity":"Pet","cat":"Pet","price":62.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/849e05ad-8254-46e4-b122-603a9108d824/image"},{"name":"Cookieblade","rarity":"Pet","cat":"Pet","price":66.48,"img":"https://mm2.dreampets.gg/api/products/v1/products/e8238640-a4cf-4894-851c-1447dad014c2/image"},{"name":"Purple Seer","rarity":"Pet","cat":"Pet","price":22.63,"img":"https://mm2.dreampets.gg/api/products/v1/products/25404648-75f0-42ad-a312-d00f65a27da9/image"},{"name":"Blue Seer","rarity":"Pet","cat":"Pet","price":38.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/d89810cb-669d-49da-a507-ac3317d62d3f/image"},{"name":"Deathshard","rarity":"Pet","cat":"Pet","price":76.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/4afdc419-bda2-4dd7-9d9b-f17e5c9dcd61/image"},{"name":"Prismatic","rarity":"Pet","cat":"Pet","price":70.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/27c94d29-f3fc-4c2f-99d3-10231620bf35/image"},{"name":"Moons","rarity":"Pet","cat":"Pet","price":40.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/268fb17f-0d68-45b3-8f57-d575167b9f92/image"},{"name":"Santa's Magic","rarity":"Pet","cat":"Pet","price":18.9,"img":"https://mm2.dreampets.gg/api/products/v1/products/c5e04e65-5512-45cf-8b8b-1b154c3f56b3/image"},{"name":"Traveller","rarity":"Pet","cat":"Pet","price":80.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/e9bc1ea1-e912-4b2d-80e7-7281184fcb4c/image"},{"name":"Sparkle1","rarity":"Pet","cat":"Pet","price":44.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/635ce7a0-49f2-4c56-b4d9-1bf7e4d758c9/image"},{"name":"Eternalcane","rarity":"Pet","cat":"Pet","price":40.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/a4abced8-78ce-4fd4-854a-57eff9d2dc63/image"},{"name":"Nebula","rarity":"Pet","cat":"Pet","price":49.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/a3720e08-243c-4e57-bfd4-c2ec18799204/image"},{"name":"Frostsaber","rarity":"Pet","cat":"Pet","price":57.67,"img":"https://mm2.dreampets.gg/api/products/v1/products/52d300a6-2248-4841-bb44-2a4cf10d37a4/image"},{"name":"Pixel","rarity":"Pet","cat":"Pet","price":180.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/5a8c7e21-7c1a-416d-a2dd-8f38e0b67cea/image"},{"name":"Sparkle2","rarity":"Pet","cat":"Pet","price":46.94,"img":"https://mm2.dreampets.gg/api/products/v1/products/cc967d28-180f-4014-aa7e-0e0174cc3868/image"},{"name":"Snowflake","rarity":"Pet","cat":"Pet","price":42.67,"img":"https://mm2.dreampets.gg/api/products/v1/products/3b13c555-0ce1-436e-b6f9-2b02c75c3f4e/image"},{"name":" Cookiecane","rarity":"Pet","cat":"Pet","price":101.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/0ebd44c1-f83d-41ed-b6ad-c469f35922ea/image"},{"name":"Virtual","rarity":"Pet","cat":"Pet","price":76.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/075ac3cc-a336-47a2-b9d9-5b34f85c5390/image"},{"name":"Fusion","rarity":"Pet","cat":"Pet","price":7.38,"img":"https://mm2.dreampets.gg/api/products/v1/products/63ab25be-525c-4483-b1bf-2c2fce0e3e8e/image"},{"name":"Heart Wand","rarity":"Pet","cat":"Pet","price":1500.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/30eb6287-677f-44f9-bac7-0c24f68f739d/image"},{"name":"BattleAxe II","rarity":"Pet","cat":"Pet","price":89.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/76dba696-9cda-4707-8afa-dad887a39a54/image"},{"name":"Gemstone","rarity":"Pet","cat":"Pet","price":64.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/3a61a47a-fde2-4740-8de8-c214e8aefca8/image"},{"name":"Winter's Edge","rarity":"Pet","cat":"Pet","price":12.21,"img":"https://mm2.dreampets.gg/api/products/v1/products/6fab6683-5ac7-4ec8-9df1-a9fb2d6fae07/image"},{"name":"Vampire's Edge","rarity":"Pet","cat":"Pet","price":120.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/f10be5b7-b08b-4e82-aea6-0bb4e15df101/image"},{"name":"Sparkle3","rarity":"Pet","cat":"Pet","price":69.96,"img":"https://mm2.dreampets.gg/api/products/v1/products/83299f59-5e61-41a0-a6f0-8b962167f208/image"},{"name":"Candleflame","rarity":"Pet","cat":"Pet","price":86.11,"img":"https://mm2.dreampets.gg/api/products/v1/products/0a3badad-3ef1-4889-8cdf-845d3e317cdf/image"},{"name":"Blood","rarity":"Pet","cat":"Pet","price":37.99,"img":"https://mm2.dreampets.gg/api/products/v1/products/c148f41b-c66f-43c5-9432-336241f78a69/image"},{"name":"Ginger","rarity":"Pet","cat":"Pet","price":31.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/162b5c73-64ac-4e18-9d13-64f2e94f6f73/image"},{"name":"TNL","rarity":"Pet","cat":"Pet","price":25.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/3f618e5a-a492-4622-aa8c-313ee4823831/image"},{"name":"Sparkle8","rarity":"Pet","cat":"Pet","price":125.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/8d58818b-f983-4ae0-90a5-3630151bee70/image"},{"name":"Snowstorm","rarity":"Pet","cat":"Pet","price":690.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/45851e0b-2207-4bbb-8062-0a74fa0d8e73/image"},{"name":" Boneblade","rarity":"Pet","cat":"Pet","price":61.97,"img":"https://mm2.dreampets.gg/api/products/v1/products/65a256c7-4577-4969-833b-b4d6619fe377/image"},{"name":"Orange Marble","rarity":"Pet","cat":"Pet","price":20.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/48b9603a-4907-4ed6-aa92-9bd1737d4391/image"},{"name":" Heat","rarity":"Pet","cat":"Pet","price":150.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/b0662784-4292-4c08-9f66-69207cfc5376/image"},{"name":"Elf","rarity":"Pet","cat":"Pet","price":3.99,"img":"https://mm2.dreampets.gg/api/products/v1/products/44a164f8-ad04-417a-80de-7162c9eacae8/image"},{"name":"Corrupt","rarity":"Pet","cat":"Pet","price":864.97,"img":"https://mm2.dreampets.gg/api/products/v1/products/7b053a47-5aeb-4da6-99d2-8e6ae88eb76f/image"},{"name":"Waves","rarity":"Pet","cat":"Pet","price":7.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/aa68bb3d-5c21-46af-b7ab-043eb6c335d1/image"},{"name":"Checker","rarity":"Pet","cat":"Pet","price":71.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/4e5c3d1b-1a61-4f0d-8c0b-cc76fdf21a03/image"},{"name":"Rainbow","rarity":"Pet","cat":"Pet","price":1900.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/6bf9a55a-0994-4a1b-85a2-d1cb04741ac7/image"},{"name":"Heart","rarity":"Pet","cat":"Pet","price":25.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/1798e921-e27f-499b-a90a-54da0326b608/image"},{"name":"Galaxy","rarity":"Pet","cat":"Pet","price":100.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/60e7a85f-1273-4a6c-a5f4-6fc412c2cf37/image"},{"name":"Spirit","rarity":"Pet","cat":"Pet","price":1550.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/2bc4b700-9961-4f69-8f4e-849d89a7563e/image"},{"name":"Sunset","rarity":"Pet","cat":"Pet","price":4000.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/e8ec707d-bbfb-470d-8b08-afacc309b9bf/image"},{"name":"Krypto","rarity":"Pet","cat":"Pet","price":800.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/c2903997-4fa4-46e9-aafe-d65d69736942/image"},{"name":" Saw","rarity":"Pet","cat":"Pet","price":71.48,"img":"https://mm2.dreampets.gg/api/products/v1/products/35172af1-e8b3-42d4-85e6-b50ce6ab8811/image"},{"name":"Coconut","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/4464dd34-4386-4a2e-8fa3-9dcc22dc325d/image"},{"name":"Santa","rarity":"Pet","cat":"Pet","price":3.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/36c0e9b8-dd88-452f-b37e-99efdaea1724/image"},{"name":"Bones","rarity":"Pet","cat":"Pet","price":38.99,"img":"https://mm2.dreampets.gg/api/products/v1/products/0973f7bf-1721-45b0-a498-84a2461bb9c3/image"},{"name":" Gemstone","rarity":"Pet","cat":"Pet","price":119.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/d1d0c53d-a80c-46b9-8f64-ea93b4d44cb0/image"},{"name":" Gingerblade","rarity":"Pet","cat":"Pet","price":64.99,"img":"https://mm2.dreampets.gg/api/products/v1/products/2d1b3234-29a0-406c-a450-59dc0d89afcd/image"},{"name":"Space","rarity":"Pet","cat":"Pet","price":7.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/dac3a804-77fc-4f6f-9551-fb6ea878fac5/image"},{"name":" Slasher","rarity":"Pet","cat":"Pet","price":99.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/94007183-aa3f-46be-ba4e-ffcbe85f37f3/image"},{"name":"Ripper","rarity":"Pet","cat":"Pet","price":17.97,"img":"https://mm2.dreampets.gg/api/products/v1/products/4adcdee0-0f29-4e40-8551-0bf07652e663/image"},{"name":"Clown","rarity":"Pet","cat":"Pet","price":45.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/3c47d243-1448-4039-9837-ff5b9957e431/image"},{"name":" Fang","rarity":"Pet","cat":"Pet","price":84.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/eced1539-ddd7-4029-b372-66efeb49a7d4/image"},{"name":"UFOs","rarity":"Pet","cat":"Pet","price":3.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/cb1f4f04-daae-4be7-8092-2b95730d5c53/image"},{"name":"Santa","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/8126f8ae-0bb1-4da3-8f5e-5695f143a10e/image"},{"name":"Neopolitan","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/e50f3842-319d-4969-82aa-c299c1fc80c0/image"},{"name":" Tides","rarity":"Pet","cat":"Pet","price":73.95,"img":"https://mm2.dreampets.gg/api/products/v1/products/323f645e-d222-4c80-b01b-3619cbc45001/image"},{"name":"Rainbow","rarity":"Pet","cat":"Pet","price":70.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/ec009c07-fe80-4212-ba1d-b0e6f3b5223a/image"},{"name":"Nightstar","rarity":"Pet","cat":"Pet","price":55.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/b98c5dd1-84f9-4992-a6b5-e7ae99dd6aae/image"},{"name":"Xenoknife","rarity":"Pet","cat":"Pet","price":1280.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/93e42d53-d7fe-4aa6-b88c-0db4a462c2b0/image"},{"name":"Green Marble","rarity":"Pet","cat":"Pet","price":10.89,"img":"https://mm2.dreampets.gg/api/products/v1/products/bd7d598f-3d9b-478b-9735-7b09e1617b21/image"},{"name":"Aurora","rarity":"Pet","cat":"Pet","price":50.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/d30fc716-eb3f-4979-81be-20e80abcd2c3/image"},{"name":"Santa","rarity":"Pet","cat":"Pet","price":20.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/49e37939-a8d6-40c2-b763-a0505240aa56/image"},{"name":"Webs","rarity":"Pet","cat":"Pet","price":5.19,"img":"https://mm2.dreampets.gg/api/products/v1/products/9ff134b1-79c8-4f5a-ba09-f789fd7c89b7/image"},{"name":"Skyline","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/bf62a8e0-02f5-4657-aee0-eb2fd95c2ab7/image"},{"name":"Bats","rarity":"Pet","cat":"Pet","price":10.1,"img":"https://mm2.dreampets.gg/api/products/v1/products/051df520-59c0-4dbb-8b4a-8399b21313ac/image"},{"name":"Sharky","rarity":"Pet","cat":"Pet","price":5.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/952acea0-4832-404a-87d5-c890ee99fed2/image"},{"name":"Glitch2","rarity":"Pet","cat":"Pet","price":110.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/bfd54eb7-5257-443b-9ba9-6ef5d088f117/image"},{"name":"Korblox","rarity":"Pet","cat":"Pet","price":90.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/2e4d7b27-d7b3-4ac5-852f-094cf14c88f8/image"},{"name":"Mummy","rarity":"Pet","cat":"Pet","price":15.98,"img":"https://mm2.dreampets.gg/api/products/v1/products/176b0ae2-691b-4ce7-92de-bbff61f082e2/image"},{"name":"Coal","rarity":"Pet","cat":"Pet","price":10.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/0bb54c59-0234-4331-b5cf-5f1d260c1a88/image"},{"name":"Red","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/8ea0aadf-3ff6-4a3f-8de7-5d8cf24cd12b/image"},{"name":"Vampire's Axe","rarity":"Pet","cat":"Pet","price":3699.99,"img":"https://mm2.dreampets.gg/api/products/v1/products/85b5548a-0dc6-4a8c-be80-762c4c766716/image"},{"name":"Xbox","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/da59f44a-c71d-496e-9d1d-634865d99b19/image"},{"name":"Vampire","rarity":"Pet","cat":"Pet","price":24.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/53ce63c6-fa71-4009-adfb-9a75e1ac396e/image"},{"name":"Candle","rarity":"Pet","cat":"Pet","price":8.79,"img":"https://mm2.dreampets.gg/api/products/v1/products/2310cd7d-8284-41ff-b827-a160cddac8b2/image"},{"name":"Vampire","rarity":"Pet","cat":"Pet","price":700.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/2d003a80-f9b1-47fb-b12a-4d57d3733a9a/image"},{"name":"Chromatic","rarity":"Pet","cat":"Pet","price":19.99,"img":"https://mm2.dreampets.gg/api/products/v1/products/f10fed60-b8a8-427b-a451-d80165523ed1/image"},{"name":"Gifted","rarity":"Pet","cat":"Pet","price":30.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/9adb9b71-65f6-43c1-81db-41c10744619b/image"},{"name":"Jack","rarity":"Pet","cat":"Pet","price":1000.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/2f00a695-9c47-48da-8a3f-15d1750069c6/image"},{"name":"Marble","rarity":"Pet","cat":"Pet","price":44.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/c48d1d48-17f8-45ca-ae1a-be483e09d398/image"},{"name":"Chick","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/1bbf8c77-2811-468a-ba3e-00c0f7f3a9b3/image"},{"name":"Bats","rarity":"Pet","cat":"Pet","price":25.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/7140478a-f0d1-4655-ad6e-077f4933fed8/image"},{"name":"Broken","rarity":"Pet","cat":"Pet","price":35.56,"img":"https://mm2.dreampets.gg/api/products/v1/products/b80c6738-48f1-407d-ac91-bda9c2f3d72d/image"},{"name":"Xeno","rarity":"Pet","cat":"Pet","price":85.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/e545a399-82fb-4109-b712-72a104d6bd46/image"},{"name":"Present","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/f2dad9e2-9bc3-4483-8e3f-0c7f9d4fd43b/image"},{"name":"Cursed","rarity":"Pet","cat":"Pet","price":18.99,"img":"https://mm2.dreampets.gg/api/products/v1/products/36148db7-1a7f-4a87-9706-7fda111700ef/image"},{"name":"2015","rarity":"Pet","cat":"Pet","price":9.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/1c2520f4-5d3b-43d2-873b-bdd9aa8fb51e/image"},{"name":"Kraken","rarity":"Pet","cat":"Pet","price":19.99,"img":"https://mm2.dreampets.gg/api/products/v1/products/485003df-8b59-4068-be21-510ac72bd5e2/image"},{"name":"Ice","rarity":"Pet","cat":"Pet","price":50.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/b6b17cd9-9cfe-40af-bbe7-4e490044ca35/image"},{"name":"Stickers","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/b3fea51a-b7e3-49da-959f-5157eb2ea9e0/image"},{"name":"Traveler","rarity":"Pet","cat":"Pet","price":39.99,"img":"https://mm2.dreampets.gg/api/products/v1/products/a6b94a0d-68b8-4623-a082-4c6f09218fd2/image"},{"name":"Carrots","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/7db96286-83db-4b8f-b4fd-a7d92807a2d7/image"},{"name":"Energized","rarity":"Pet","cat":"Pet","price":40.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/34e3a715-eeeb-498e-aeb7-29648cb670bc/image"},{"name":"Arctic","rarity":"Pet","cat":"Pet","price":15.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/8f9645fe-af3b-4482-924a-879ef38b4b5d/image"},{"name":"Ribbon","rarity":"Pet","cat":"Pet","price":7.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/68094a22-b930-4eba-bbf2-c78cf32c54c9/image"},{"name":"Candy Corn","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/ee3fb655-fb00-4f14-a61d-745a55fff312/image"},{"name":"Nether","rarity":"Pet","cat":"Pet","price":33.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/12421583-b502-47bd-a783-44bc23789faf/image"},{"name":"Scratch","rarity":"Pet","cat":"Pet","price":18.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/56385b54-5196-43fe-aacd-e08df0537f86/image"},{"name":"Sand","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/0839a6df-02be-4103-8b65-fe0543cf5e85/image"},{"name":"Wraiths","rarity":"Pet","cat":"Pet","price":13.59,"img":"https://mm2.dreampets.gg/api/products/v1/products/30348f60-8769-4f05-97df-281957466ed3/image"},{"name":"Spider","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/5e6027bb-d853-43b2-af9e-085566cf7ef0/image"},{"name":"Decorated","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/af7d7dc1-51ed-427a-ade5-b9619b67c546/image"},{"name":"Neon","rarity":"Pet","cat":"Pet","price":100.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/dd192ca3-7e9a-4987-bf9c-5c2cd2e82a0c/image"},{"name":"Penguin","rarity":"Pet","cat":"Pet","price":3.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/665579ba-a687-4ba5-89f8-6d2a0c83f2f0/image"},{"name":"Passion","rarity":"Pet","cat":"Pet","price":30.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/692898e7-dbb5-49f3-9730-d571317f8f2b/image"},{"name":"Aurora","rarity":"Pet","cat":"Pet","price":60.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/5052eaef-fd15-45fb-98d5-eec46d25c383/image"},{"name":"Infected","rarity":"Pet","cat":"Pet","price":200.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/15f2ec4c-5458-488a-9036-b76309776b9f/image"},{"name":"Toy","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/bbaf812a-eb1d-4491-bdee-9ef8b39bbbd7/image"},{"name":"Tree","rarity":"Pet","cat":"Pet","price":9.97,"img":"https://mm2.dreampets.gg/api/products/v1/products/a12eccb4-0a97-43f5-9175-96716cf891b4/image"},{"name":"Hologram","rarity":"Pet","cat":"Pet","price":250.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/205a9dac-bf1b-4079-91ba-ee075bd73ae4/image"},{"name":"Strawberries","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/957af2fc-aca5-4c0e-b7f2-723d82214d3a/image"},{"name":"Abduction","rarity":"Pet","cat":"Pet","price":9.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/37200872-041a-42b1-b4db-757a57cd102d/image"},{"name":"Turtles","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/a711518d-25fa-4d8c-b4b8-307be22f6ba7/image"},{"name":"Purple","rarity":"Pet","cat":"Pet","price":3.99,"img":"https://mm2.dreampets.gg/api/products/v1/products/8bcff64b-4385-46c7-8495-9fc81fb0bc88/image"},{"name":"Pop Art","rarity":"Pet","cat":"Pet","price":100.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/34addfc9-85d5-4bd3-9183-60598e935750/image"},{"name":"Gingercookie","rarity":"Pet","cat":"Pet","price":38.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/f3b7b041-0ba4-47fd-8e82-7106ada2b065/image"},{"name":"Sakura","rarity":"Pet","cat":"Pet","price":3050.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/ba7b2e42-a72e-4dae-ad4a-5d13e9109ae9/image"},{"name":"Web","rarity":"Pet","cat":"Pet","price":9.99,"img":"https://mm2.dreampets.gg/api/products/v1/products/99d6868f-3896-4134-bbe8-b49aea4ceea4/image"},{"name":"Lava","rarity":"Pet","cat":"Pet","price":17.65,"img":"https://mm2.dreampets.gg/api/products/v1/products/35d57b00-473e-4a80-9312-4d40709b751e/image"},{"name":"Beach","rarity":"Pet","cat":"Pet","price":75.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/94091521-a532-4955-a68c-b3e67313abf7/image"},{"name":"Celestial","rarity":"Pet","cat":"Pet","price":6890.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/97dc3f14-6722-4f34-94e6-a67383995f70/image"},{"name":"Pink","rarity":"Pet","cat":"Pet","price":12.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/97d3879b-b1cd-493d-bb9b-89f8d5416969/image"},{"name":"Spring","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/fb4b8d93-225b-4984-83cd-1e7f52569710/image"},{"name":"Squire","rarity":"Pet","cat":"Pet","price":10.88,"img":"https://mm2.dreampets.gg/api/products/v1/products/c7a9e48d-c878-4460-ad17-f3e9ee67fc26/image"},{"name":"Sidewinder","rarity":"Pet","cat":"Pet","price":17.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/73a0a839-bacd-4749-bd88-75169a70687d/image"},{"name":"Popsicle","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/c8b1d741-2275-4073-89c6-2da417881f85/image"},{"name":"Pumpkin","rarity":"Pet","cat":"Pet","price":60.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/9ea006e3-1f70-4f53-987b-441ff2f756f6/image"},{"name":"Love","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/b64b5f4d-6d81-4682-9ffa-c7b743e07997/image"},{"name":"Aqua","rarity":"Pet","cat":"Pet","price":5.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/4afe7db8-5f48-4a9d-aef3-1bf34b1400a1/image"},{"name":"Ghosts","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/2238c3e8-b006-4d16-bb80-b676a1e94e57/image"},{"name":"Candy Swirl","rarity":"Pet","cat":"Pet","price":8.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/1a44c5fc-4283-429b-b593-7b02281ba303/image"},{"name":"Snowfall","rarity":"Pet","cat":"Pet","price":5.99,"img":"https://mm2.dreampets.gg/api/products/v1/products/7907ce1b-9063-4332-8579-72c750a0952d/image"},{"name":"Cheesy","rarity":"Pet","cat":"Pet","price":3.82,"img":"https://mm2.dreampets.gg/api/products/v1/products/a5efd521-6bbc-45e4-86ab-31789ec8c939/image"},{"name":"Snowball","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/412ce9e4-546d-43f8-87d4-a00bd3de0de3/image"},{"name":"Starry","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/ab6ff8ac-f097-400d-b56b-714cbeaa6623/image"},{"name":"Clownfish","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/3692c03b-f2b4-4b4e-98a1-8b868c4ae8f1/image"},{"name":"Green","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/3aba9c5f-b23b-44b6-beb3-04e0d6e0a73a/image"},{"name":"Darkknife","rarity":"Pet","cat":"Pet","price":447.15,"img":"https://mm2.dreampets.gg/api/products/v1/products/dbf677c4-ab0e-4878-9f8a-ec53c6788482/image"},{"name":"Doge","rarity":"Pet","cat":"Pet","price":33.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/54464ff5-cf0c-44b3-8464-b10ed124e3ab/image"},{"name":"Latte","rarity":"Pet","cat":"Pet","price":399.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/a41b1590-313f-4ab1-8c5b-e9e4a1a6bb52/image"},{"name":"Peppermint","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/e405d1ea-f8fd-4b6e-9742-6c2ce701fde1/image"},{"name":"Cavern","rarity":"Pet","cat":"Pet","price":45.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/a83eea0a-8d95-433b-8cc4-ba6f9c3142e7/image"},{"name":"8bit","rarity":"Pet","cat":"Pet","price":3.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/c35440fe-28e5-4bd9-a400-35b56d72b19e/image"},{"name":"Igloo","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/d3408fd9-bfc5-41b8-90c8-7454aa8fc705/image"},{"name":"Tailslide","rarity":"Pet","cat":"Pet","price":200.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/84522091-c857-4688-b858-2dd0c87e1989/image"},{"name":" Icecream","rarity":"Pet","cat":"Pet","price":4700.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/11cb118c-a136-4eb2-aedc-b6fa05d649cc/image"},{"name":"Lights","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/e9da460f-2de9-42e1-ae28-af26f25482bb/image"},{"name":"Cherry","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/13374524-b3c0-437e-8834-aafbf87d4374/image"},{"name":"Frostfade","rarity":"Pet","cat":"Pet","price":39.5,"img":"https://mm2.dreampets.gg/api/products/v1/products/de83d61d-bc39-491d-b046-bd217a8c6c1a/image"},{"name":"Blue","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/307db71b-4a01-4ab9-acfb-0b3c9fba7b7b/image"},{"name":"Skulls","rarity":"Pet","cat":"Pet","price":35.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/5d9c534e-7b3b-47f3-92bb-3efef91186e8/image"},{"name":"Lights","rarity":"Pet","cat":"Pet","price":9.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/ff9f6740-1568-4ee1-8b9a-cd7f763af818/image"},{"name":"Bones","rarity":"Pet","cat":"Pet","price":26.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/266567aa-b8d7-44e1-9f31-d618c5092361/image"},{"name":"Hot Chocolate","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/729b2b2e-276d-4537-ba2b-7e587ad217f6/image"},{"name":"Witched","rarity":"Pet","cat":"Pet","price":17.87,"img":"https://mm2.dreampets.gg/api/products/v1/products/ea985416-8321-4ac2-8e06-6d2d78d27f2b/image"},{"name":"Pumpkin","rarity":"Pet","cat":"Pet","price":7.89,"img":"https://mm2.dreampets.gg/api/products/v1/products/2c0dc684-739b-490c-9ef3-9ff29a3b03e7/image"},{"name":"Evergreen","rarity":"Pet","cat":"Pet","price":6399.99,"img":"https://mm2.dreampets.gg/api/products/v1/products/da148ed8-4661-4e99-bc87-45854dd35f88/image"},{"name":"Gingerbread","rarity":"Pet","cat":"Pet","price":27.99,"img":"https://mm2.dreampets.gg/api/products/v1/products/620663c6-cac1-4076-898e-7b20e79a0ecb/image"},{"name":"Yellow","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/bfe54e94-c2f7-46ff-b2b7-36c5072d4504/image"},{"name":"Pool","rarity":"Pet","cat":"Pet","price":5.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/65e5b194-021c-440d-91e3-caadfb9d2a19/image"},{"name":"Darksword","rarity":"Pet","cat":"Pet","price":3440.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/b5351f18-c38f-46ba-a8d2-3a5461f3967e/image"},{"name":"Frostflame","rarity":"Pet","cat":"Pet","price":17.98,"img":"https://mm2.dreampets.gg/api/products/v1/products/4875f3aa-3f69-4945-aa8f-78bb96f34fd4/image"},{"name":"Dolphins","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/6a4c9162-7d5d-444a-b6fc-cc8e967b3974/image"},{"name":"Witch's Brew","rarity":"Pet","cat":"Pet","price":25.99,"img":"https://mm2.dreampets.gg/api/products/v1/products/bbcfe82f-bb3f-44b7-b96a-7c9d54c49953/image"},{"name":"Alienbeam","rarity":"Pet","cat":"Pet","price":5000.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/5ff6be36-111b-4314-8c5d-516b28808ce6/image"},{"name":"Soda","rarity":"Pet","cat":"Pet","price":5.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/3d4f03b6-e4f7-463b-b62f-4da851d98d02/image"},{"name":"Ornaments","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/07766dcd-3bbb-4c0b-b42a-c356a49875e9/image"},{"name":"Icicles","rarity":"Pet","cat":"Pet","price":3.99,"img":"https://mm2.dreampets.gg/api/products/v1/products/7c95d040-54b1-42f1-83f6-49d6521156da/image"},{"name":"Love","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/eb51dbc8-e150-42b1-a5ae-b96dac6f764e/image"},{"name":"Spectrum","rarity":"Pet","cat":"Pet","price":4.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/27348dc2-6736-41b6-99ef-23079c731f1c/image"},{"name":"Sweetheart","rarity":"Pet","cat":"Pet","price":8.89,"img":"https://mm2.dreampets.gg/api/products/v1/products/7621b048-199f-466c-af68-42ebbf0e213e/image"},{"name":"Alex","rarity":"Pet","cat":"Pet","price":33.33,"img":"https://mm2.dreampets.gg/api/products/v1/products/ac32f627-b4a7-42a7-b727-6a2dac6aed85/image"},{"name":"Floral","rarity":"Pet","cat":"Pet","price":50.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/151b8869-b1a3-49d4-8219-cd5adda012d3/image"},{"name":"Ornament2","rarity":"Pet","cat":"Pet","price":15.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/d63d8187-2228-4740-b3ea-f3009c0dcf95/image"},{"name":"Jellyfish","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/a4c514d7-2fef-4edb-8dba-d137f1706d84/image"},{"name":"Stars","rarity":"Pet","cat":"Pet","price":40.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/2b6124e3-1c8b-4be5-a112-5297603662b0/image"},{"name":"Stickers","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/78aab079-6f3f-445d-966f-b4bc8ee11040/image"},{"name":"Deep Sea","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/a844f4ea-5b69-452a-bf58-d52c2ba28abf/image"},{"name":"Eyeball","rarity":"Pet","cat":"Pet","price":8.89,"img":"https://mm2.dreampets.gg/api/products/v1/products/3aaf974f-3450-41b2-af15-e19b437428a5/image"},{"name":"Slime","rarity":"Pet","cat":"Pet","price":45.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/991002b3-ce2c-4800-829a-490f51ca7ea1/image"},{"name":"Watcher","rarity":"Pet","cat":"Pet","price":44.97,"img":"https://mm2.dreampets.gg/api/products/v1/products/daf0a8ef-71ee-4f2a-82c4-5a316236d78d/image"},{"name":"Graffiti","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/1a18d3d1-f349-406e-b9da-c15fd9364588/image"},{"name":"Paper","rarity":"Pet","cat":"Pet","price":15.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/3a3a7768-4462-4397-a1d1-0172c807bf46/image"},{"name":"Reptile","rarity":"Pet","cat":"Pet","price":8.1,"img":"https://mm2.dreampets.gg/api/products/v1/products/7bba9de4-0ead-420d-98a4-5ddbb8522e65/image"},{"name":"Haunted","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/776f2efa-78fb-4e1b-896e-044725abb3e1/image"},{"name":"Nova","rarity":"Pet","cat":"Pet","price":47.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/164d2451-447d-4573-9bfb-524a6324c4c0/image"},{"name":"Molten","rarity":"Pet","cat":"Pet","price":15.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/304e49a9-f2df-4ddb-b58f-53fb1fc652a4/image"},{"name":"Reindeer","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/e8ba2dd8-d7a1-4964-acae-2af28ab126da/image"},{"name":"Candles","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/c102e6b5-912e-4103-af4d-7bdc68e27444/image"},{"name":"Tiger","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/4aaff783-5b55-44c4-9269-5b0d67c5816f/image"},{"name":"Storm","rarity":"Pet","cat":"Pet","price":13.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/bc8e69f1-658e-4cb3-b94c-65de4204ff45/image"},{"name":"Void","rarity":"Pet","cat":"Pet","price":45.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/ce444878-1d95-4f4b-907c-dd1cc65a764d/image"},{"name":"Ghosty","rarity":"Pet","cat":"Pet","price":24.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/df297c18-b980-4b74-9d27-bcefb1156905/image"},{"name":"Adurite","rarity":"Pet","cat":"Pet","price":7.99,"img":"https://mm2.dreampets.gg/api/products/v1/products/afb12148-c8af-4a0b-aefa-28433bf135dd/image"},{"name":"Ghost","rarity":"Pet","cat":"Pet","price":18.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/02f35b96-2b3e-4ed1-8516-23e4ed02eb4d/image"},{"name":"Painted","rarity":"Pet","cat":"Pet","price":2.8,"img":"https://mm2.dreampets.gg/api/products/v1/products/2de80804-df65-4172-996c-f0dd4bcdef10/image"},{"name":"Future","rarity":"Pet","cat":"Pet","price":7.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/d708fa0f-9ffd-413e-b246-c1dc5cf4dca0/image"},{"name":"Turkey","rarity":"Pet","cat":"Pet","price":5000.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/3f1e3d0a-ffff-4c41-a639-d39d3f1e8488/image"},{"name":"Tropical","rarity":"Pet","cat":"Pet","price":14.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/38d2068d-9eb2-4574-b10b-994e2f8ff120/image"},{"name":"Bio","rarity":"Pet","cat":"Pet","price":4.37,"img":"https://mm2.dreampets.gg/api/products/v1/products/f64d87cd-b72d-46fd-8f00-2577b590ee66/image"},{"name":"Frozen","rarity":"Pet","cat":"Pet","price":5.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/7d1a11a6-1f0f-4784-b72b-119bfc015994/image"},{"name":"Ghastly","rarity":"Pet","cat":"Pet","price":23.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/b98b5dc4-f016-43dd-a903-67d0fd57e608/image"},{"name":"Logcutter","rarity":"Pet","cat":"Pet","price":15.8,"img":"https://mm2.dreampets.gg/api/products/v1/products/1c55a4f8-628f-4217-b4bf-f1c2844b462a/image"},{"name":"Retro","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/e7799ce9-050a-468d-87c6-6083f45a0f8c/image"},{"name":"Hearts","rarity":"Pet","cat":"Pet","price":34.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/1445d9a2-e1d9-494a-98a0-ff02ec211aaa/image"},{"name":"RB Knife","rarity":"Pet","cat":"Pet","price":20.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/67418bbc-eecd-4c3f-8c02-5fa4ecd54f05/image"},{"name":"Robot","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/54e3b392-1d92-4fdb-9187-0c60570b7345/image"},{"name":"Grind","rarity":"Pet","cat":"Pet","price":10.25,"img":"https://mm2.dreampets.gg/api/products/v1/products/fa87c89e-fe9c-4122-a51c-68cd0c91ccdb/image"},{"name":"Snowglobe","rarity":"Pet","cat":"Pet","price":7.99,"img":"https://mm2.dreampets.gg/api/products/v1/products/57aa6fa2-61eb-4988-a103-e1f35522fb7a/image"},{"name":"Bones","rarity":"Pet","cat":"Pet","price":300.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/91f10a4a-3984-438b-84d4-e71189fd1de8/image"},{"name":"Monster","rarity":"Pet","cat":"Pet","price":10.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/7db6f522-4910-400c-a009-e228bf3eb474/image"},{"name":"Stickers","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/21025fa5-9844-47ab-94b1-025f7679364a/image"},{"name":"Damp","rarity":"Pet","cat":"Pet","price":4.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/3c5e25fa-bffc-4bcb-88d6-85f033d98d1b/image"},{"name":"Haunted","rarity":"Pet","cat":"Pet","price":10.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/0c8015bf-5074-406d-a1a3-9067c49824c4/image"},{"name":"Snowman","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/d0bd0696-aea5-4ea1-85a6-bf4a970c78ae/image"},{"name":"Snowy","rarity":"Pet","cat":"Pet","price":8.95,"img":"https://mm2.dreampets.gg/api/products/v1/products/b884b5f2-3f78-4003-988e-aec5ebcc43b0/image"},{"name":"Stainless","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/bf56ad66-1d0d-452f-87c1-711197092a4f/image"},{"name":"CandyCorn","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/98efdd91-1433-4b1b-98f7-32c42eaa2ac6/image"},{"name":"Vortex","rarity":"Pet","cat":"Pet","price":4.99,"img":"https://mm2.dreampets.gg/api/products/v1/products/f7130fad-e6ef-459b-b9e4-65136b36460b/image"},{"name":"Watcher","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/00aad6d5-58c8-42ec-ba93-5eff9bd7afe0/image"},{"name":"Choco","rarity":"Pet","cat":"Pet","price":100.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/0677d978-ebc7-4537-9506-8f1df04c5152/image"},{"name":"Coal","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/5045f414-eb96-4b3b-9c65-c1c4db026304/image"},{"name":"Cane","rarity":"Pet","cat":"Pet","price":22.22,"img":"https://mm2.dreampets.gg/api/products/v1/products/9f80490d-e4ad-4f16-950f-5eb76bcb2e06/image"},{"name":"Camo","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/5d262355-185d-475d-9f23-f9c96e3eb875/image"},{"name":"Brains","rarity":"Pet","cat":"Pet","price":14.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/4054cc8a-f34e-4495-9cbf-0fc45de7a3a7/image"},{"name":"Roses","rarity":"Pet","cat":"Pet","price":8.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/eb234ceb-5f85-4fb4-b508-2090c9ea6448/image"},{"name":"Missing","rarity":"Pet","cat":"Pet","price":5.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/fdd09819-8015-4d85-83fa-0ec07b160e17/image"},{"name":"Gingerbread","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/f199a35c-9d8d-4684-8174-ef3012ae6ea8/image"},{"name":"Frozen","rarity":"Pet","cat":"Pet","price":7.93,"img":"https://mm2.dreampets.gg/api/products/v1/products/d1fded6a-6045-4b50-af01-94c594a2124e/image"},{"name":"Cookie","rarity":"Pet","cat":"Pet","price":32.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/af58128b-bde9-410d-adfb-9588652b1e52/image"},{"name":"Bluesteel","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/594c6e62-a613-49e9-9e17-4f81c41f4913/image"},{"name":"Melon","rarity":"Pet","cat":"Pet","price":3.92,"img":"https://mm2.dreampets.gg/api/products/v1/products/e4309f34-7b7b-4226-925b-0a852bf861ee/image"},{"name":"Makeshift","rarity":"Pet","cat":"Pet","price":200.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/dd0d991d-9828-4a92-8bcf-e952d0e59bdd/image"},{"name":"Stockings","rarity":"Pet","cat":"Pet","price":6.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/faebd93d-7468-4f0c-9bbd-e8b6f0a7ef64/image"},{"name":"Magma","rarity":"Pet","cat":"Pet","price":4.5,"img":"https://mm2.dreampets.gg/api/products/v1/products/8c51e2b5-27ac-49d7-8da7-80b09e773d0e/image"},{"name":"Tree","rarity":"Pet","cat":"Pet","price":20.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/330ed9b3-f74e-4cd7-970f-1c3ba058128c/image"},{"name":"Steel","rarity":"Pet","cat":"Pet","price":38.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/c120015f-79fe-4e85-a137-201796f7b234/image"},{"name":"Carrot","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/02b7ed16-f01c-4b43-aa53-42482256aad8/image"},{"name":"Wrapped","rarity":"Pet","cat":"Pet","price":36.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/c7c7c22f-d68f-4685-b4ea-20687a120a99/image"},{"name":"Striped","rarity":"Pet","cat":"Pet","price":2.0,"img":"https://mm2.dreampets.gg/api/products/v1/products/cc7352ed-9c9e-485f-8e7a-64af507adb29/image"},{"name":"Egg","rarity":"Pet","cat":"Pet","price":2.29,"img":"https://mm2.dreampets.gg/api/products/v1/products/4a63f38d-ed0b-4f0a-8851-7cff980dddf3/image"}];
+
+let cart = [];
+let currentCategory = "all";
+let currentSearch = "";
+let activePromo = null;
+
+const promoCodes = {
+  "MM2START": 10,
+  "SHOP2VPN10": 10,
+  "GODLY15": 15
+};
+
+function esc(text) {
+  return String(text)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function scrollToProducts() {
+  const el = document.getElementById("products");
+  if (el) el.scrollIntoView({behavior:"smooth"});
+}
+
+function filter(cat) {
+  currentCategory = cat;
+  scrollToProducts();
+  renderCatalog();
+}
+
+function setCatalog(cat, btn) {
+  currentCategory = cat;
+  document.querySelectorAll(".catFilter").forEach(function(b) {
+    b.classList.remove("active");
+  });
+  if (btn) btn.classList.add("active");
+  renderCatalog();
+}
+
+function renderCatalog() {
+  const grid = document.getElementById("grid");
+  if (!grid) return;
+
+  const list = catalogItems.filter(function(x) {
+    const categoryOK =
+      currentCategory === "all" ||
+      x.cat === currentCategory ||
+      (currentCategory === "Chroma" && x.rarity === "Chroma");
+    const searchOK = (x.name + " " + x.rarity + " " + x.cat)
+      .toLowerCase()
+      .includes(currentSearch);
+    return categoryOK && searchOK;
+  });
+
+  grid.innerHTML = list.map(function(x) {
+    return '<article class="card">' +
+      '<div class="pic">' +
+        '<span>' + esc(x.rarity) + '</span>' +
+        '<img src="' + esc(x.img) + '" alt="' + esc(x.name) + '">' +
+      '</div>' +
+      '<div class="info">' +
+        '<b>' + esc(x.name) + '</b>' +
+        '<small>' + esc(x.rarity) + ' · ' + esc(x.cat) + '</small>' +
+        '<div class="row">' +
+          '<strong>' + Number(x.price).toLocaleString("ru-RU") + ' ₽</strong>' +
+          '<button type="button" class="addProduct" data-name="' + esc(x.name) + '" data-price="' + x.price + '">🛒</button>' +
+        '</div>' +
+        '<small style="color:#65d98b;margin-top:8px">● В наличии</small>' +
+      '</div>' +
+    '</article>';
+  }).join("");
+
+  document.querySelectorAll(".addProduct").forEach(function(btn) {
+    btn.addEventListener("click", function() {
+      add(this.dataset.name, Number(this.dataset.price));
+    });
+  });
+
+  document.querySelectorAll("#grid img").forEach(function(img) {
+    img.addEventListener("error", function() {
+      this.style.display = "none";
+    });
+  });
+
+  const info = document.getElementById("resultsInfo");
+  if (info) info.textContent = list.length + " товаров";
+}
+
+function add(name, price) {
+  var item = catalogItems.find(function(x){ return x.name === name; });
+  if (!item) item = {name:name, price:Number(price), rarity:"MM2", cat:"Item", img:""};
+  openCheckout(item);
+}
+
+function openCheckout(item) {
+  window.checkoutItem = item;
+  var discount = (activePromo && promoCodes[activePromo]) ? promoCodes[activePromo] : 0;
+  var total = Math.round(Number(item.price) * (1 - discount / 100));
+  var body = document.getElementById("checkoutBody");
+  if (!body) return;
+
+  body.innerHTML =
+    '<div class="checkoutSummary"><b>'+esc(item.name)+'</b><br>' +
+    '<span style="color:#999">'+esc(item.rarity)+' · '+esc(item.cat)+'</span>' +
+    '<div class="checkoutTotal"><span>Итого</span><b>'+total.toLocaleString("ru-RU")+' ₽</b></div></div>' +
+    '<label>Roblox никнейм</label>' +
+    '<input id="orderRoblox" type="text" placeholder="Например: Player123">' +
+    '<label>Контакт для выдачи</label>' +
+    '<input id="orderContact" type="text" placeholder="Telegram или Discord">' +
+    '<label>Способ оплаты</label>' +
+    '<select id="orderPayment"><option value="requisites">💳 Оплата по реквизитам</option></select>' +
+    '<div id="paymentRequisites" style="margin-top:14px;padding:16px;border:1px solid #34343e;border-radius:12px;background:#17171d">' +
+      '<div style="font-size:13px;color:#999;margin-bottom:7px">Реквизиты для оплаты</div>' +
+      '<div style="font-size:21px;font-weight:800;letter-spacing:1px">2202 2082 9219 8738</div>' +
+      '<button type="button" onclick="copyPaymentRequisites()" style="margin-top:10px;padding:9px 12px;border:0;border-radius:8px;cursor:pointer">📋 Скопировать реквизиты</button>' +
+      '<div style="margin-top:12px;font-size:13px;color:#aaa">После оплаты нажмите «Я оплатил».</div>' +
+    '</div>' +
+    '<div style="margin-top:14px;padding:12px;border-radius:10px;background:#211e12;color:#e5c96b;font-size:13px">⚠️ Перед оплатой проверьте сумму и реквизиты.</div>' +
+    '<button class="checkoutBtn" style="width:100%;margin-top:14px" type="button" onclick="submitPaidOrder()">✅ Я оплатил</button>';
+
+  var modal = document.getElementById("checkoutModal");
+  if (modal) modal.classList.add("show");
+}
+
+function copyPaymentRequisites() {
+  var r = "2202 2082 9219 8738";
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(r).then(function(){ alert("Реквизиты скопированы"); });
+  } else {
+    alert("Реквизиты: " + r);
+  }
+}
+
+function closeReceipt() {
+  var m = document.getElementById("receiptModal");
+  if (m) m.classList.remove("show");
+}
+
+function copyReceipt() {
+  var el = document.getElementById("receiptText");
+  if (!el) return;
+  var text = el.textContent || "";
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(text).then(function(){
+      alert("Чек скопирован");
+    });
+  } else {
+    alert(text);
+  }
+}
+
+function makeDemoReceipt(selectedItem, selectedTotal, buyerName) {
+  var buyer = buyerName || "Не указан";
+  var orderNo = "MM-" + Math.floor(10000 + Math.random() * 90000);
+  var date = new Date().toLocaleString("ru-RU");
+  var price = Number(selectedTotal) || Number(selectedItem.price) || 0;
+
+  return (
+"=========================================\n" +
+"             SHOP2VPN.COM\n" +
+"     Маркетплейс игровых предметов Roblox\n" +
+"       Поддержка: support@shop2vpn.com\n" +
+"=========================================\n" +
+"      ЭЛЕКТРОННЫЙ ЧЕК / ДЕМО-ПРИМЕР\n" +
+"      НЕ ЯВЛЯЕТСЯ ФИСКАЛЬНЫМ ЧЕКОМ\n" +
+"\n" +
+date + "\n" +
+"ЗАКАЗ №: " + orderNo + "\n" +
+"СПОСОБ ВЫДАЧИ: Roblox Trade\n" +
+"Ник покупателя: " + buyer + "\n" +
+"-----------------------------------------\n" +
+"1. Оружие: " + selectedItem.name + " (" + selectedItem.rarity + ")\n" +
+"   1.000 x  " + price.toFixed(2) + " ₽\n" +
+"   Категория: Murder Mystery 2\n" +
+"   Без НДС                         " + price.toFixed(2) + " ₽\n" +
+"-----------------------------------------\n" +
+"ИТОГ                              " + price.toFixed(2) + " ₽\n" +
+"ОПЛАТА: ПО РЕКВИЗИТАМ            " + price.toFixed(2) + " ₽\n" +
+"-----------------------------------------\n" +
+"СУММА БЕЗ НДС                    " + price.toFixed(2) + " ₽\n" +
+"-----------------------------------------\n" +
+"СТАТУС: Оплата заявлена\n" +
+"\n" +
+"ИНСТРУКЦИЯ:\n" +
+"После подтверждения оплаты ожидайте выдачу\n" +
+"предмета через Roblox Trade.\n" +
+"\n" +
+"СПАСИБО ЗА ПОКУПКУ!\n" +
+"УДАЧНОГО РАУНДА!\n" +
+"========================================="
+  );
+}
+
+function submitPaidOrder() {
+  var item = window.checkoutItem;
+  if (!item) return alert("Товар не выбран.");
+
+  var robloxEl = document.getElementById("orderRoblox");
+  var contactEl = document.getElementById("orderContact");
+
+  var roblox = robloxEl ? robloxEl.value.trim() : "";
+  var contact = contactEl ? contactEl.value.trim() : "";
+
+  if (!roblox) {
+    alert("Введите Roblox никнейм.");
+    if (robloxEl) robloxEl.focus();
+    return;
+  }
+
+  if (!contact) {
+    alert("Введите Telegram или Discord.");
+    if (contactEl) contactEl.focus();
+    return;
+  }
+
+  var discount = (activePromo && promoCodes[activePromo]) ? promoCodes[activePromo] : 0;
+  var total = Math.round(Number(item.price) * (1 - discount / 100));
+
+  var order = {
+    order: "MM2-" + Date.now(),
+    roblox: roblox,
+    contact: contact,
+    item: item.name,
+    rarity: item.rarity,
+    category: item.cat,
+    price: total,
+    payment: "Оплата по реквизитам",
+    requisites: "2202 2082 9219 8738",
+    status: "Оплата заявлена",
+    time: new Date().toLocaleString("ru-RU")
+  };
+
+  saveOrder(order);
+
+  var receipt = makeDemoReceipt(item, total, roblox);
+  var receiptText = document.getElementById("receiptText");
+  var receiptModal = document.getElementById("receiptModal");
+
+  if (receiptText) receiptText.textContent = receipt;
+  if (receiptModal) receiptModal.classList.add("show");
+
+  if (typeof closeCheckout === "function") closeCheckout();
+  if (typeof renderDeveloperOrders === "function") renderDeveloperOrders();
+}
+
+
+function closeCheckout() {
+  var el=document.getElementById("checkoutModal");
+  if(el) el.classList.remove("show");
+}
+
+function submitOrder() {
+  var roblox=document.getElementById("orderRoblox");
+  var contact=document.getElementById("orderContact");
+  var payment=document.getElementById("orderPayment");
+  if(!roblox || !contact || !roblox.value.trim() || !contact.value.trim()){
+    alert("Заполни Roblox никнейм и контакт.");
+    return;
+  }
+  var item=window.checkoutItem;
+  var discount=(activePromo && promoCodes[activePromo]) ? promoCodes[activePromo] : 0;
+  var total=Math.round(Number(item.price)*(1-discount/100));
+  var order="TEST-"+Math.random().toString(36).slice(2,8).toUpperCase();
+  saveOrder({
+    order: order,
+    roblox: roblox.value.trim(),
+    item: item.name,
+    time: new Date().toLocaleString("ru-RU"),
+    price: total
+  });
+  document.getElementById("checkoutBody").innerHTML=
+    '<div style="text-align:center;padding:30px 10px">'+
+    '<div style="font-size:50px">✅</div><h2>Заказ оформлен!</h2>'+
+    '<p style="color:#999">Тестовая покупка создана.</p>'+
+    '<div class="orderCode">'+order+'</div>'+
+    '<p><b>'+esc(item.name)+'</b><br>'+total.toLocaleString("ru-RU")+' ₽</p>'+
+    '<p style="color:#888">Roblox: '+esc(roblox.value)+'<br>Контакт: '+esc(contact.value)+'<br>Оплата: '+esc(payment.value)+'</p>'+
+    '<button class="checkoutBtn" type="button" onclick="closeCheckout()">Готово</button></div>';
+}
+
+const DEV_PASSWORD = "1200";
+const ORDERS_KEY = "shop2vpn_demo_orders";
+
+function getOrders() {
+  try { return JSON.parse(localStorage.getItem(ORDERS_KEY) || "[]"); }
+  catch(e) { return []; }
+}
+
+function saveOrder(order) {
+  var orders = getOrders();
+  orders.unshift(order);
+  localStorage.setItem(ORDERS_KEY, JSON.stringify(orders.slice(0, 100)));
+}
+
+function renderDeveloperOrders() {
+  var box = document.getElementById("devOrders");
+  if (!box) return;
+  var orders = getOrders();
+  if (!orders.length) {
+    box.innerHTML = '<div class="devEmpty">Заказов пока нет.</div>';
+    return;
+  }
+  box.innerHTML = orders.map(function(o) {
+    return '<div class="devOrder">' +
+      '<div><b>' + esc(o.roblox) + '</b><small>' + esc(o.item) + '</small></div>' +
+      '<div class="devOrderMeta"><span>' + esc(o.order) + '</span><span>' + esc(o.time) + '</span></div>' +
+      '</div>';
+  }).join("");
+}
+
+function clearDeveloperOrders() {
+  if (!confirm("Удалить историю тестовых заказов?")) return;
+  localStorage.removeItem(ORDERS_KEY);
+  renderDeveloperOrders();
+}
+
+function openDeveloper() {
+  var password = window.prompt("Введите пароль разработчика:");
+  if (password === DEV_PASSWORD) {
+    var el=document.getElementById("detailModal");
+    if(el){ el.classList.add("show"); devFilter("all"); renderDeveloperOrders(); }
+  } else if (password !== null) {
+    alert("Неверный пароль.");
+  }
+}
+
+function closeDeveloper() {
+  var el=document.getElementById("detailModal");
+  if(el) el.classList.remove("show");
+}
+
+function devFilter(cat) {
+  var grid=document.getElementById("devGrid");
+  if(!grid) return;
+  var list=catalogItems.filter(function(x){
+    return cat==="all" || x.cat===cat || (cat==="Chroma" && x.rarity==="Chroma");
+  });
+  grid.innerHTML=list.map(function(x,i){
+    return '<div class="devItem">'+
+      '<b>'+esc(x.name)+'</b><small>'+esc(x.rarity)+' · '+esc(x.cat)+'</small><br>'+
+      '<strong>'+Number(x.price).toLocaleString("ru-RU")+' ₽</strong><br>'+
+      '<button class="checkoutBtn devBuy" type="button" data-index="'+catalogItems.indexOf(x)+'" style="margin-top:8px;padding:7px 9px">Просмотр / купить</button>'+
+      '</div>';
+  }).join("");
+  grid.querySelectorAll(".devBuy").forEach(function(btn){
+    btn.addEventListener("click",function(){
+      var item=catalogItems[Number(this.dataset.index)];
+      if(item){ closeDeveloper(); openCheckout(item); }
+    });
+  });
+}
+
+function openCheckoutByName(name) {
+  var item=catalogItems.find(function(x){return x.name===name;});
+  if(item){ closeDeveloper(); openCheckout(item); }
+}
+
+function updateCartCount() {
+  const el = document.getElementById("count");
+  if (el) el.textContent = cart.length;
+}
+
+function openCart() {
+  showCart();
+  const modal = document.getElementById("modal");
+  if (modal) modal.classList.add("show");
+}
+
+function closeCart() {
+  const modal = document.getElementById("modal");
+  if (modal) modal.classList.remove("show");
+}
+
+function showCart() {
+  const box = document.getElementById("items");
+  const totalEl = document.getElementById("total");
+  if (!box || !totalEl) return;
+
+  if (!cart.length) {
+    box.textContent = "Корзина пуста";
+    totalEl.textContent = "0 ₽";
+    return;
+  }
+
+  box.innerHTML = cart.map(function(x, i) {
+    return '<div class="item">' +
+      '<span>' + esc(x.name) + '</span>' +
+      '<span>' + Number(x.price).toLocaleString("ru-RU") + ' ₽ ' +
+      '<button type="button" class="removeCart" data-index="' + i + '">✕</button></span>' +
+      '</div>';
+  }).join("");
+
+  document.querySelectorAll(".removeCart").forEach(function(btn) {
+    btn.addEventListener("click", function() {
+      cart.splice(Number(this.dataset.index), 1);
+      updateCartCount();
+      showCart();
+    });
+  });
+
+  const total = cart.reduce(function(sum, x) { return sum + Number(x.price); }, 0);
+  totalEl.textContent = total.toLocaleString("ru-RU") + " ₽";
+}
+
+function usePromo(code) {
+  const input = document.getElementById("promoInput");
+  if (input) input.value = code;
+  applyPromo({preventDefault:function(){}});
+}
+
+function applyPromo(e) {
+  if (e && e.preventDefault) e.preventDefault();
+  const input = document.getElementById("promoInput");
+  const result = document.getElementById("promoResult");
+  if (!input || !result) return;
+
+  const code = input.value.trim().toUpperCase();
+  if (promoCodes[code]) {
+    activePromo = code;
+    result.className = "promoResult ok";
+    result.textContent = "✓ Промокод применён: скидка " + promoCodes[code] + "%";
+  } else {
+    activePromo = null;
+    result.className = "promoResult bad";
+    result.textContent = "✕ Такого промокода нет.";
+  }
+}
+
+function sendSupport(e) {
+  if (e && e.preventDefault) e.preventDefault();
+  const name = document.getElementById("supportName");
+  const contact = document.getElementById("supportContact");
+  const text = document.getElementById("supportText");
+  if (!name || !contact || !text) return;
+
+  if (!name.value.trim() || !contact.value.trim() || !text.value.trim()) return;
+  alert("Обращение создано!\\n\\nВ демо-версии оно пока не отправляется на сервер.");
+  e.target.reset();
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  var developerBtn = document.getElementById("developerBtn");
+  if (developerBtn) developerBtn.addEventListener("click", openDeveloper);
+  const search = document.getElementById("q");
+  if (search) {
+    search.addEventListener("input", function() {
+      currentSearch = this.value.toLowerCase();
+      renderCatalog();
+    });
+  }
+
+  const modal = document.getElementById("modal");
+  if (modal) {
+    modal.addEventListener("click", function(e) {
+      if (e.target === modal) closeCart();
+    });
+  }
+
+  document.addEventListener("keydown", function(e) {
+    if (e.key === "Escape") closeCart();
+  });
+
+  renderCatalog();
+  updateCartCount();
+});
+function checkoutCart() {
+  if (!cart || !cart.length) {
+    alert("Корзина пуста.");
+    return;
+  }
+  var first = cart[0];
+  var item = catalogItems.find(function(x){ return x.name === first.name; });
+  if (!item) item = {name:first.name, price:Number(first.price), rarity:"MM2", cat:"Item", img:""};
+  closeCart();
+  openCheckout(item);
+}
+
+</script>
+<div class="buyModal" id="buyModal" onclick="if(event.target===this)closeBuyWindow()">
+  <div class="buyBox">
+    <div class="buyHead">
+      <b>🛍 Тестовая покупка</b>
+      <button type="button" onclick="closeBuyWindow()">✕</button>
+    </div>
+    <div id="buyContent"></div>
+  </div>
+</div>
+
+<div class="devBar"><button id="developerBtn" type="button">🛠 Разработчик</button></div>
+
+<div class="detailModal" id="detailModal" onclick="if(event.target===this)closeDeveloper()">
+  <div class="modalBox">
+    <div class="modalHead"><b>🛠 Просмотр товаров — режим разработчика</b><button onclick="closeDeveloper()">✕</button></div>
+    <div class="devOrdersBox">
+      <div class="devOrdersHead">
+        <div><b>📋 Оформленные заказы</b><br><small>Никнейм покупателя и выбранный предмет</small></div>
+        <button type="button" onclick="clearDeveloperOrders()">Очистить</button>
+      </div>
+      <div id="devOrders"></div>
+    </div>
+    <div class="devActions">
+      <button onclick="devFilter('all')">Все товары</button>
+      <button onclick="devFilter('Knife')">🔪 Ножи</button>
+      <button onclick="devFilter('Gun')">🔫 Пушки</button>
+      <button onclick="devFilter('Pet')">🐾 Петы</button>
+      <button onclick="devFilter('Chroma')">🌈 Chroma</button>
+    </div>
+    <div class="devGrid" id="devGrid"></div>
+  </div>
+</div>
+
+<div class="checkoutModal" id="checkoutModal" onclick="if(event.target===this)closeCheckout()">
+  <div class="modalBox">
+    <div class="modalHead"><b>🛒 Оформление заказа</b><button onclick="closeCheckout()">✕</button></div>
+    <div class="checkoutBody" id="checkoutBody"></div>
+  </div>
+</div>
+
+<div class="receiptModal" id="receiptModal" onclick="if(event.target===this)closeReceipt()">
+  <div class="receiptBox">
+    <div class="receiptHead">
+      <span>Электронный чек заказа</span>
+      <button type="button" onclick="closeReceipt()">✕</button>
+    </div>
+    <pre class="receiptText" id="receiptText"></pre>
+    <div class="receiptActions">
+      <button type="button" onclick="copyReceipt()">📋 Скопировать</button>
+      <button type="button" onclick="closeReceipt()">Закрыть</button>
+    </div>
+  </div>
+</div>
+</body></html>
